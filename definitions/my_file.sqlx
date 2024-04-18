@@ -1,4 +1,5 @@
 config {
+    name: "moja_nowa_tabela",
     type: "table",
     description: "moja pierwsza nowa tabela",
     tags: ["tabela", "moja", "nowa"],
