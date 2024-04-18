@@ -1,0 +1,18 @@
+config {
+    type: "table",
+    description: "moja pierwsza nowa tabela",
+    tags: ["tabela", "moja", "nowa"],
+    schema: "bqml",
+    columns: {
+        unique_id: "Unikalne id usera",
+        status: "Status usera",
+        wiek: "Wiek usera",
+        zarobki: "Zarobki",
+        uro: "Urodziny"
+    },
+    bigquery: {
+        partitionBy: "uro"
+    }
+}
+}
+}
