@@ -19,6 +19,4 @@ config {
 SELECT
   1 AS unique_id,
   2 AS status,
-  3 AS wiek,
-  555 AS zarobki,
-  123 AS uro
+  3 AS wiek
