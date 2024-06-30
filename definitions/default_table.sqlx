@@ -3,7 +3,6 @@ config {
     type: "table",
     description: "moja pierwsza nowa tabela",
     tags: ["tabela", "moja", "nowa"],
-    schema: "bqml",
     bigquery: {
         partitionBy: "uro"
     }

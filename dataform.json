@@ -1,5 +1,5 @@
 {
-  "defaultSchema": "bqml",
+  "defaultSchema": "test_dataset",
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "ml-pl-test",
