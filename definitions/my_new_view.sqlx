@@ -12,7 +12,5 @@ config {
     }
 }
 
-CREATE TABLE
-  ml-pl-test.bqml.moja_nowa_tabela_2 AS
-SELECT
-  1 AS unique_id
+SELECT *
+FROM ${ref('moja_nowa_tabela')}
