@@ -1,24 +1,18 @@
 config {
-    name: "moja_nowa_tabela",
+    name: "moja_nowa_tabela_2",
     type: "table",
     description: "moja pierwsza nowa tabela",
     tags: ["tabela", "moja", "nowa"],
-    schema: "bqml",
     columns: {
         unique_id: "Unikalne id usera",
         status: "Status usera",
         wiek: "Wiek usera",
         zarobki: "Zarobki",
         uro: "Urodziny"
-    },
-    bigquery: {
-        partitionBy: "uro"
     }
 }
 
+CREATE TABLE
+  ml-pl-test.bqml.moja_nowa_tabela_2 AS
 SELECT
-  1 AS unique_id,
-  2 AS status,
-  3 AS wiek,
-  555 AS zarobki,
-  123 AS uro
+  1 AS unique_id
