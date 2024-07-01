@@ -1,0 +1,16 @@
+config {
+    name: "moja_nowa_union",
+    type: "table",
+    description: "moja pierwsza nowa tabela union",
+    tags: ["tabela", "moja", "nowa"], 
+}
+
+
+SELECT * from ${ref("moja_nowa_tabela_3")}
+UNION ALL
+SELECT
+  4 AS unikalny_id,
+  5 AS statusek,
+  6 AS age,
+  555 AS salary,
+  123 AS birthday

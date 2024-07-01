@@ -2,11 +2,8 @@ config {
     name: "moja_nowa_tabela",
     type: "table",
     description: "moja pierwsza nowa tabela",
-    tags: ["tabela", "moja", "nowa"],
-    bigquery: {
-        partitionBy: "uro"
-    }
-}
+    tags: ["tabela", "moja", "nowa"]
+  }    
 
 SELECT
   1 AS unique_id,
