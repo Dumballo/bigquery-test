@@ -12,5 +12,5 @@ SELECT
   4 AS unikalny_id,
   5 AS statusek,
   6 AS age,
-  555 AS salary,
-  123 AS birthday
+  7 AS salary,
+  8 AS birthday
