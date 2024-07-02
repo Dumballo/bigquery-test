@@ -7,10 +7,13 @@ config {
 
 
 SELECT * from ${ref("moja_nowa_tabela_3")}
-UNION ALL
-SELECT
+CROSS JOIN (SELECT
   4 AS unikalny_id,
   5 AS statusek,
   6 AS age,
   7 AS salary,
-  8 AS birthday
+  8 AS birthday)
+  CROSS JOIN
+  (SELECT * FROM ${ref("moja_nowa_tabela_3")})
+
+

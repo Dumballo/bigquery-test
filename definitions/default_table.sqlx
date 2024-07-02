@@ -11,3 +11,10 @@ SELECT
   3 AS wiek,
   555 AS zarobki,
   123 AS uro
+UNION ALL
+SELECT
+  4 AS unikalny_id,
+  5 AS statusek,
+  6 AS age,
+  7 AS salary,
+  8 AS birthday
